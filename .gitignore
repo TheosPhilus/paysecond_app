@@ -1,0 +1,29 @@
+# Environnements virtuels
+env/
+venv/
+
+# Fichiers compilés Python
+__pycache__/
+*.py[cod]
+
+# Configs sensibles
+.env
+
+# Logs
+*.log
+
+
+# IDEs
+.vscode/
+.idea/
+
+# macOS
+.DS_Store
+
+# pytest
+.pytest_cache/
+
+# Packaging
+dist/
+build/
+*.egg-info/
