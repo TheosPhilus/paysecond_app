@@ -1,27 +1,22 @@
 # Environnements virtuels
 env/
 venv/
+.venv/
 
-# Fichiers compilés Python
+# Secrets
+.env
+.env.*
+
+# Fichiers compilés
 __pycache__/
 *.py[cod]
-
-# Configs sensibles
-.env
-
-# Logs
-*.log
-
 
 # IDEs
 .vscode/
 .idea/
 
-# macOS
-.DS_Store
-
-# pytest
-.pytest_cache/
+# Logs
+*.log
 
 # Packaging
 dist/
